@@ -1,0 +1,12 @@
+checkpoints_v1/
+historical_models_v1/
+kaggle_log_output/
+kaggle_output/
+kaggle_training_output/
+runs/
+wandb/
+__pycache__/
+*.zip
+*.tar.gz
+replay.html
+.git/

@@ -1,0 +1,97 @@
+# ==============================================================================
+# OrbitWars - Git Ignore Configuration
+# ==============================================================================
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Packaging, distribution & build artifacts
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# PyTorch checkpoints, weights, & training runs
+checkpoints/
+checkpoints_v1/
+checkpoints_v2/
+historical_models/
+historical_models_v1/
+historical_models_v2/
+runs/
+wandb/
+*.pt
+*.pth
+*.npz
+
+# Kaggle logs, outputs, and crash reports
+kaggle_log_output/
+kaggle_output/
+kaggle_training_output/
+notebook*.log
+crash_*.txt
+
+# Match replays and HTML visualization renders (often 30MB-50MB+)
+replay.html
+loss_replay.html
+*.html
+
+# Large submission archives and compressed packages
+*.tar.gz
+*.zip
+*.tar
+*.gz
+*.rar
+*.7z
+
+# Temporary testing clones, bot sandboxes, and analysis diff dumps
+temp_*/
+v*_temp/
+v16_analysis_ref/
+diff*.txt
+*diff*.txt
+evaluation_100_models_report.txt
+
+# Editor and IDE configurations
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Operating system metadata
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Local credentials and environment secrets
+.env
+.env.*
+kaggle.json
